@@ -87,7 +87,7 @@
     "typescript": "^5.3.3",
     "webpack": "^5.93.0"
   },
-  "peerDependencies": {
+  "overrides": {
     "ember-source": "^3.24 || >=4.0"
   },
   "peerDependenciesMeta": {
