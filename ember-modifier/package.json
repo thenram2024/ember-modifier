@@ -54,7 +54,8 @@
     "@embroider/addon-shim": "^1.8.7",
     "decorator-transforms": "^2.0.0",
     "ember-cli-normalize-entity-name": "^1.0.0",
-    "ember-cli-string-utils": "^1.1.0"
+    "ember-cli-string-utils": "^1.1.0",
+    "ember-source": "~4.11.0"
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
@@ -87,7 +88,7 @@
     "typescript": "^5.3.3",
     "webpack": "^5.93.0"
   },
-  "overrides": {
+  "peerDependencies": {
     "ember-source": "^3.24 || >=4.0"
   },
   "peerDependenciesMeta": {
